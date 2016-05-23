@@ -72,6 +72,7 @@ h3 {
 /* line 30, partials/_typography.scss */
 h4 {
   font-size: 22px;
+  text-align: center;
 }
 
 /* line 31, partials/_typography.scss */
@@ -118,5 +119,28 @@ li, a, p {
 
 /* Pages
    ========================================================================== */
+/* Services
+   ========================================================================== */
+/* line 4, pages/_services.scss */
+.img-container {
+  width: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 9, pages/_services.scss */
+.img-container img {
+  width: 100%;
+}
+
+/* line 14, pages/_services.scss */
+.item-list {
+  margin-bottom: 5%;
+}
+/* line 17, pages/_services.scss */
+.item-list h4 {
+  padding: 0 15%;
+  line-height: 30px;
+}
+
 /* Third-party
    ========================================================================== */
