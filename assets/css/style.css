@@ -1,0 +1,122 @@
+/* Modules and Variables
+   ========================================================================== */
+/* Color Scheme
+   ========================================================================== */
+/* Mixins
+   ========================================================================== */
+@import url(vendor/bootstrap.min.css);
+@import url(vendor/font-awesome/css/font-awesome.min.css);
+/* line 6, modules/_mixins.scss */
+::-webkit-input-placeholder {
+  color: #ddd;
+}
+
+/* line 7, modules/_mixins.scss */
+:-moz-placeholder {
+  color: #ddd;
+}
+
+/* line 8, modules/_mixins.scss */
+::-moz-placeholder {
+  color: #ddd;
+}
+
+/* line 9, modules/_mixins.scss */
+:-ms-input-placeholder {
+  color: #ddd;
+}
+
+/* Partials
+   ========================================================================== */
+/* Typography
+   ========================================================================== */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url(../fonts/Merriweather-Bold.otf);
+}
+/* line 14, partials/_typography.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 19, partials/_typography.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 23, partials/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather-Bold";
+}
+
+/* line 27, partials/_typography.scss */
+h1 {
+  font-size: 100px;
+}
+
+/* line 28, partials/_typography.scss */
+h2 {
+  font-size: 76px;
+}
+
+/* line 29, partials/_typography.scss */
+h3 {
+  font-size: 40px;
+}
+
+/* line 30, partials/_typography.scss */
+h4 {
+  font-size: 22px;
+}
+
+/* line 31, partials/_typography.scss */
+h5 {
+  font-size: 20px;
+}
+
+/* line 32, partials/_typography.scss */
+h6 {
+  font-size: 18px;
+}
+
+/* line 33, partials/_typography.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 35, partials/_typography.scss */
+li, a, p {
+  font-family: "Montserrat-Regular";
+}
+
+/* Footer Stay Down
+   ========================================================================== */
+/* line 4, partials/footer-stay-down.scss */
+.fsd-wrap {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+/* line 15, partials/footer-stay-down.scss */
+.fsd-wrap .content-wrap {
+  display: table-row;
+  height: 100%;
+}
+/* line 20, partials/footer-stay-down.scss */
+.fsd-wrap .footer-wrap {
+  display: table-row;
+  height: 1px;
+}
+
+/* Pages
+   ========================================================================== */
+/* Third-party
+   ========================================================================== */
