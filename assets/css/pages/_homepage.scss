@@ -91,8 +91,23 @@ html, body {
 }
 
 #typed{
-	color: $orange;
+	$textcolor: null;
+	$x : random(3);
+
+	@if $x==1 {
+		$textcolor : $blue;
+	} @elseif $x==2 {
+		$textcolor : $red;
+	} @elseif $x==3 {
+		$textcolor : $orange;
+	} @else {
+		$textcolor : $purple;
+	}	
+
+	color: $textcolor;
+	content: '$x';
 	font-size: 50px;
+
 }
 
 .typed-cursor{
@@ -113,7 +128,7 @@ html, body {
 		padding-left: 10%;
 
 		.background {
-			top: 15%;
+			top: 70px;
 			left: 0;
 			position: absolute;
 
@@ -163,7 +178,7 @@ html, body {
 			.line {
 				border-top: 3px solid $gray;
 				padding-top:5px;
-				padding-bottom: 10px;
+				padding-bottom: 5px;
 				width: 50px;
 				display: inline-block;
 			}	

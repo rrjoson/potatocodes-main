@@ -260,11 +260,12 @@ html, body {
 
 /* line 93, pages/_homepage.scss */
 #typed {
-  color: #faee1e;
+  color: #1393cb;
+  content: '$x';
   font-size: 50px;
 }
 
-/* line 98, pages/_homepage.scss */
+/* line 113, pages/_homepage.scss */
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -320,27 +321,27 @@ html, body {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 112, pages/_homepage.scss */
+  /* line 127, pages/_homepage.scss */
   .about-us {
     padding-left: 10%;
   }
-  /* line 115, pages/_homepage.scss */
+  /* line 130, pages/_homepage.scss */
   .about-us .background {
-    top: 15%;
+    top: 70px;
     left: 0;
     position: absolute;
   }
-  /* line 120, pages/_homepage.scss */
+  /* line 135, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 50px;
   }
-  /* line 128, pages/_homepage.scss */
+  /* line 143, pages/_homepage.scss */
   .about-us .contents {
     position: relative;
     max-height: none;
     height: auto;
   }
-  /* line 133, pages/_homepage.scss */
+  /* line 148, pages/_homepage.scss */
   .about-us .contents .line {
     border-top: 1px solid #30353b;
     padding-top: 5px;
@@ -350,7 +351,7 @@ html, body {
     position: absolute;
     left: -60px;
   }
-  /* line 143, pages/_homepage.scss */
+  /* line 158, pages/_homepage.scss */
   .about-us .contents .line:after {
     content: "";
     width: 10px;
@@ -360,21 +361,21 @@ html, body {
     position: absolute;
     top: -6px;
   }
-  /* line 153, pages/_homepage.scss */
+  /* line 168, pages/_homepage.scss */
   .about-us .contents h2 {
     font-size: 33px;
     line-height: 44px;
   }
-  /* line 163, pages/_homepage.scss */
+  /* line 178, pages/_homepage.scss */
   .about-us .social-icons .line {
     border-top: 3px solid #e4e3e3;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     width: 50px;
     display: inline-block;
   }
 
-  /* line 177, pages/_homepage.scss */
+  /* line 192, pages/_homepage.scss */
   #typed {
     font-size: 33px;
   }
