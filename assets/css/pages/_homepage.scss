@@ -23,7 +23,7 @@ html, body {
 	.background {
 		color: $gray;
 		position: absolute;
-		top: 10%;
+		top: 35px;
 		left: 12%;
 
 		h1 {
@@ -148,8 +148,14 @@ html, body {
 				display: inline-block;
 			}	
 
+
+
 		}
 
+	}
+
+	#typed{
+		font-size: 33px;		
 	}
 	
 }

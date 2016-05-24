@@ -198,7 +198,7 @@ html, body {
 .about-us .background {
   color: #e4e3e3;
   position: absolute;
-  top: 10%;
+  top: 35px;
   left: 12%;
 }
 /* line 29, pages/_homepage.scss */
@@ -310,6 +310,11 @@ html, body {
     padding-bottom: 10px;
     width: 50px;
     display: inline-block;
+  }
+
+  /* line 157, pages/_homepage.scss */
+  #typed {
+    font-size: 33px;
   }
 }
 /* Third-party
