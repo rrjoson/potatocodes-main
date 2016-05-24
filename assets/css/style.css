@@ -63,7 +63,6 @@ h1 {
 /* line 29, partials/_typography.scss */
 h2 {
   font-size: 46px;
-  display: inline;
 }
 
 /* line 30, partials/_typography.scss */
@@ -210,8 +209,15 @@ html, body {
   padding: 20px 0 10px 0;
   position: relative;
   margin-top: 70px;
+  height: 190px;
+  max-height: 190px;
 }
-/* line 39, pages/_homepage.scss */
+/* line 41, pages/_homepage.scss */
+.about-us .contents h2 {
+  padding-right: 5%;
+  display: inline-block;
+}
+/* line 46, pages/_homepage.scss */
 .about-us .contents .line {
   border-top: 1px solid #30353b;
   padding-top: 5px;
@@ -221,7 +227,7 @@ html, body {
   position: absolute;
   left: -12%;
 }
-/* line 49, pages/_homepage.scss */
+/* line 56, pages/_homepage.scss */
 .about-us .contents .line:after {
   content: "";
   width: 10px;
@@ -231,20 +237,20 @@ html, body {
   position: absolute;
   top: -6px;
 }
-/* line 59, pages/_homepage.scss */
+/* line 66, pages/_homepage.scss */
 .about-us .contents .line:after {
   right: 0;
 }
-/* line 66, pages/_homepage.scss */
+/* line 73, pages/_homepage.scss */
 .about-us .social-icons a {
   display: inline;
 }
-/* line 70, pages/_homepage.scss */
+/* line 77, pages/_homepage.scss */
 .about-us .social-icons a i {
   color: #e4e3e3;
   padding: 15px 10px 20px;
 }
-/* line 77, pages/_homepage.scss */
+/* line 84, pages/_homepage.scss */
 .about-us .social-icons .line {
   border-top: 3px solid #e4e3e3;
   padding-bottom: 9px;
@@ -252,33 +258,89 @@ html, body {
   display: inline-block;
 }
 
-/* line 86, pages/_homepage.scss */
+/* line 93, pages/_homepage.scss */
 #typed {
   color: #faee1e;
   font-size: 50px;
-  /* display: inline; */
 }
 
+/* line 98, pages/_homepage.scss */
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 768px) {
-  /* line 94, pages/_homepage.scss */
+  /* line 112, pages/_homepage.scss */
   .about-us {
     padding-left: 10%;
   }
-  /* line 97, pages/_homepage.scss */
+  /* line 115, pages/_homepage.scss */
   .about-us .background {
     top: 15%;
     left: 0;
     position: absolute;
   }
-  /* line 102, pages/_homepage.scss */
+  /* line 120, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 50px;
   }
-  /* line 110, pages/_homepage.scss */
+  /* line 128, pages/_homepage.scss */
   .about-us .contents {
     position: relative;
+    max-height: none;
+    height: auto;
   }
-  /* line 113, pages/_homepage.scss */
+  /* line 133, pages/_homepage.scss */
   .about-us .contents .line {
     border-top: 1px solid #30353b;
     padding-top: 5px;
@@ -288,7 +350,7 @@ html, body {
     position: absolute;
     left: -60px;
   }
-  /* line 123, pages/_homepage.scss */
+  /* line 143, pages/_homepage.scss */
   .about-us .contents .line:after {
     content: "";
     width: 10px;
@@ -298,12 +360,12 @@ html, body {
     position: absolute;
     top: -6px;
   }
-  /* line 133, pages/_homepage.scss */
+  /* line 153, pages/_homepage.scss */
   .about-us .contents h2 {
     font-size: 33px;
     line-height: 44px;
   }
-  /* line 143, pages/_homepage.scss */
+  /* line 163, pages/_homepage.scss */
   .about-us .social-icons .line {
     border-top: 3px solid #e4e3e3;
     padding-top: 5px;
@@ -312,7 +374,7 @@ html, body {
     display: inline-block;
   }
 
-  /* line 157, pages/_homepage.scss */
+  /* line 177, pages/_homepage.scss */
   #typed {
     font-size: 33px;
   }
