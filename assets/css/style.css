@@ -125,7 +125,7 @@ li, a, p {
 .img-container {
   width: 50%;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 auto 8%;
 }
 /* line 9, pages/_services.scss */
 .img-container img {
@@ -140,6 +140,7 @@ li, a, p {
 .item-list h4 {
   padding: 0 15%;
   line-height: 30px;
+  font-family: "Montserrat-Regular";
 }
 
 /* Third-party
