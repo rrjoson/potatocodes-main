@@ -276,16 +276,12 @@ html, body {
 
 /* line 85, pages/_homepage.scss */
 #typed {
-  color: #faae1e;
+  color: #d32f3f;
   content: '$x';
   font-size: 50px;
 }
 
-<<<<<<< HEAD
-/* line 90, pages/_homepage.scss */
-=======
-/* line 113, pages/_homepage.scss */
->>>>>>> about-us
+/* line 105, pages/_homepage.scss */
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -341,47 +337,27 @@ html, body {
   }
 }
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-  /* line 104, pages/_homepage.scss */
+  /* line 119, pages/_homepage.scss */
   .about-us {
     padding-left: 10%;
   }
-  /* line 107, pages/_homepage.scss */
-=======
-  /* line 127, pages/_homepage.scss */
-  .about-us {
-    padding-left: 10%;
-  }
-  /* line 130, pages/_homepage.scss */
->>>>>>> about-us
+  /* line 122, pages/_homepage.scss */
   .about-us .background {
     top: 70px;
     left: 0;
     position: absolute;
   }
-<<<<<<< HEAD
-  /* line 112, pages/_homepage.scss */
+  /* line 127, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 50px;
   }
-  /* line 120, pages/_homepage.scss */
-=======
   /* line 135, pages/_homepage.scss */
-  .about-us .background h1 {
-    font-size: 50px;
-  }
-  /* line 143, pages/_homepage.scss */
->>>>>>> about-us
   .about-us .contents {
     position: relative;
     max-height: none;
     height: auto;
   }
-<<<<<<< HEAD
-  /* line 125, pages/_homepage.scss */
-=======
-  /* line 148, pages/_homepage.scss */
->>>>>>> about-us
+  /* line 140, pages/_homepage.scss */
   .about-us .contents .line {
     border-top: 1px solid #30353b;
     padding-top: 5px;
@@ -391,11 +367,7 @@ html, body {
     position: absolute;
     left: -60px;
   }
-<<<<<<< HEAD
-  /* line 135, pages/_homepage.scss */
-=======
-  /* line 158, pages/_homepage.scss */
->>>>>>> about-us
+  /* line 150, pages/_homepage.scss */
   .about-us .contents .line:after {
     content: "";
     width: 10px;
@@ -405,20 +377,12 @@ html, body {
     position: absolute;
     top: -6px;
   }
-<<<<<<< HEAD
-  /* line 145, pages/_homepage.scss */
-=======
-  /* line 168, pages/_homepage.scss */
->>>>>>> about-us
+  /* line 160, pages/_homepage.scss */
   .about-us .contents h2 {
     font-size: 33px;
     line-height: 44px;
   }
-<<<<<<< HEAD
-  /* line 155, pages/_homepage.scss */
-=======
-  /* line 178, pages/_homepage.scss */
->>>>>>> about-us
+  /* line 170, pages/_homepage.scss */
   .about-us .social-icons .line {
     border-top: 3px solid #e4e3e3;
     padding-top: 5px;
@@ -427,11 +391,7 @@ html, body {
     display: inline-block;
   }
 
-<<<<<<< HEAD
-  /* line 169, pages/_homepage.scss */
-=======
-  /* line 192, pages/_homepage.scss */
->>>>>>> about-us
+  /* line 184, pages/_homepage.scss */
   #typed {
     font-size: 33px;
   }
