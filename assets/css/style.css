@@ -173,31 +173,6 @@ li, a, p {
 }
 /* Pages
    ========================================================================== */
-/* Services
-   ========================================================================== */
-/* line 4, pages/_services.scss */
-.img-container {
-  width: 35%;
-  overflow: hidden;
-  margin: 0 auto 5%;
-}
-/* line 9, pages/_services.scss */
-.img-container img {
-  width: 100%;
-}
-
-/* line 14, pages/_services.scss */
-.item-list {
-  margin-bottom: 3%;
-}
-/* line 17, pages/_services.scss */
-.item-list h5 {
-  padding: 0 18%;
-  line-height: 24px;
-  font-family: "Montserrat-Regular";
-}
-
-
 /* Homepage
    ========================================================================== */
 /* line 4, pages/_homepage.scss */
@@ -330,5 +305,29 @@ html, body {
     display: inline-block;
   }
 }
+/* Services
+   ========================================================================== */
+/* line 4, pages/_services.scss */
+.img-container {
+  width: 30%;
+  overflow: hidden;
+  margin: 0 auto 5%;
+}
+/* line 9, pages/_services.scss */
+.img-container img {
+  width: 100%;
+}
+
+/* line 14, pages/_services.scss */
+.item-list {
+  margin: 2% auto;
+}
+/* line 17, pages/_services.scss */
+.item-list h5 {
+  padding: 0 25%;
+  line-height: 24px;
+  font-family: "Montserrat-Regular";
+}
+
 /* Third-party
    ========================================================================== */
