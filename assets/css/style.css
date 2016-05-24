@@ -72,12 +72,12 @@ h3 {
 /* line 30, partials/_typography.scss */
 h4 {
   font-size: 22px;
-  text-align: center;
 }
 
 /* line 31, partials/_typography.scss */
 h5 {
   font-size: 20px;
+  text-align: center;
 }
 
 /* line 32, partials/_typography.scss */
@@ -123,9 +123,9 @@ li, a, p {
    ========================================================================== */
 /* line 4, pages/_services.scss */
 .img-container {
-  width: 50%;
+  width: 35%;
   overflow: hidden;
-  margin: 0 auto 8%;
+  margin: 0 auto 5%;
 }
 /* line 9, pages/_services.scss */
 .img-container img {
@@ -134,12 +134,12 @@ li, a, p {
 
 /* line 14, pages/_services.scss */
 .item-list {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 /* line 17, pages/_services.scss */
-.item-list h4 {
-  padding: 0 15%;
-  line-height: 30px;
+.item-list h5 {
+  padding: 0 18%;
+  line-height: 24px;
   font-family: "Montserrat-Regular";
 }
 
