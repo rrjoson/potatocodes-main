@@ -51,46 +51,47 @@ html {
 
 /* line 23, partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather-Bold";
-}
-
-/* line 27, partials/_typography.scss */
-h1 {
-  font-size: 100px;
+  font-family: "Montserrat-Regular";
+  margin: 0;
 }
 
 /* line 28, partials/_typography.scss */
-h2 {
-  font-size: 76px;
+h1 {
+  font-size: 98px;
 }
 
 /* line 29, partials/_typography.scss */
+h2 {
+  font-size: 46px;
+}
+
+/* line 30, partials/_typography.scss */
 h3 {
   font-size: 40px;
 }
 
-/* line 30, partials/_typography.scss */
+/* line 31, partials/_typography.scss */
 h4 {
   font-size: 22px;
   text-align: center;
 }
 
-/* line 31, partials/_typography.scss */
+/* line 32, partials/_typography.scss */
 h5 {
   font-size: 20px;
 }
 
-/* line 32, partials/_typography.scss */
+/* line 33, partials/_typography.scss */
 h6 {
   font-size: 18px;
 }
 
-/* line 33, partials/_typography.scss */
+/* line 34, partials/_typography.scss */
 p {
   font-size: 16px;
 }
 
-/* line 35, partials/_typography.scss */
+/* line 36, partials/_typography.scss */
 li, a, p {
   font-family: "Montserrat-Regular";
 }
@@ -117,6 +118,59 @@ li, a, p {
   height: 1px;
 }
 
+/* Helpers
+   ========================================================================== */
+/* line 4, partials/_helpers.scss */
+._pull-left {
+  float: left !important;
+}
+
+/* line 5, partials/_helpers.scss */
+._pull-right {
+  float: right !important;
+}
+
+/* line 6, partials/_helpers.scss */
+._text-center {
+  text-align: center !important;
+}
+
+/* line 7, partials/_helpers.scss */
+._remove-padding {
+  padding: 0 !important;
+}
+
+/* line 8, partials/_helpers.scss */
+._remove-margin {
+  margin: 0 !important;
+}
+
+/* line 9, partials/_helpers.scss */
+._position-relative {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 14, partials/_helpers.scss */
+  ._sm-padding-rm {
+    padding: 0;
+  }
+
+  /* line 15, partials/_helpers.scss */
+  ._sm-text-center {
+    text-align: center !important;
+  }
+
+  /* line 16, partials/_helpers.scss */
+  ._sm-pull-left {
+    float: left !important;
+  }
+
+  /* line 17, partials/_helpers.scss */
+  ._sm-pull-right {
+    float: right !important;
+  }
+}
 /* Pages
    ========================================================================== */
 /* Services
@@ -143,5 +197,138 @@ li, a, p {
   font-family: "Montserrat-Regular";
 }
 
+
+/* Homepage
+   ========================================================================== */
+/* line 4, pages/_homepage.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, pages/_homepage.scss */
+.about-us {
+  background-color: #f5f5f5;
+}
+/* line 13, pages/_homepage.scss */
+.about-us .logo {
+  padding: 10px 0 0.5% 0;
+}
+/* line 17, pages/_homepage.scss */
+.about-us .logo img {
+  width: 150px;
+  height: auto;
+}
+/* line 23, pages/_homepage.scss */
+.about-us .background {
+  color: #e4e3e3;
+  position: absolute;
+  top: 10%;
+  left: 12%;
+}
+/* line 29, pages/_homepage.scss */
+.about-us .background h1 {
+  font-family: "Merriweather-Bold" !important;
+}
+/* line 34, pages/_homepage.scss */
+.about-us .contents {
+  padding: 20px 0 10px 0;
+  position: relative;
+  margin-top: 70px;
+}
+/* line 39, pages/_homepage.scss */
+.about-us .contents .line {
+  border-top: 1px solid #30353b;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 35px auto 0;
+  width: 10%;
+  position: absolute;
+  left: -12%;
+}
+/* line 49, pages/_homepage.scss */
+.about-us .contents .line:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #30353b;
+  border-radius: 5px;
+  position: absolute;
+  top: -6px;
+}
+/* line 59, pages/_homepage.scss */
+.about-us .contents .line:after {
+  right: 0;
+}
+/* line 66, pages/_homepage.scss */
+.about-us .social-icons a {
+  display: inline;
+}
+/* line 70, pages/_homepage.scss */
+.about-us .social-icons a i {
+  color: #e4e3e3;
+  padding: 50px 10px;
+}
+/* line 77, pages/_homepage.scss */
+.about-us .social-icons .line {
+  border-top: 3px solid #e4e3e3;
+  padding-bottom: 9px;
+  width: 5%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 88, pages/_homepage.scss */
+  .about-us {
+    padding-left: 10%;
+  }
+  /* line 91, pages/_homepage.scss */
+  .about-us .background {
+    top: 15%;
+    left: 0;
+    position: absolute;
+  }
+  /* line 96, pages/_homepage.scss */
+  .about-us .background h1 {
+    font-size: 50px;
+  }
+  /* line 104, pages/_homepage.scss */
+  .about-us .contents {
+    position: relative;
+  }
+  /* line 107, pages/_homepage.scss */
+  .about-us .contents .line {
+    border-top: 1px solid #30353b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 25px auto 0;
+    width: 50px;
+    position: absolute;
+    left: -60px;
+  }
+  /* line 117, pages/_homepage.scss */
+  .about-us .contents .line:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #30353b;
+    border-radius: 5px;
+    position: absolute;
+    top: -6px;
+  }
+  /* line 127, pages/_homepage.scss */
+  .about-us .contents h2 {
+    font-size: 33px;
+    line-height: 44px;
+  }
+  /* line 137, pages/_homepage.scss */
+  .about-us .social-icons .line {
+    border-top: 3px solid #e4e3e3;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 50px;
+    display: inline-block;
+  }
+}
 /* Third-party
    ========================================================================== */

@@ -1,0 +1,149 @@
+/* Homepage
+   ========================================================================== */
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.about-us {
+
+	background-color: $dark-white;
+	
+	.logo {
+
+		padding: 10px 0 0.5% 0;
+		
+		img {
+			width: 150px;
+			height: auto;
+		 }
+	}
+
+	.background {
+		color: $gray;
+		position: absolute;
+		top: 10%;
+		left: 12%;
+
+		h1 {
+			font-family: "Merriweather-Bold" !important;
+		}
+	}
+
+	.contents {
+		padding: 20px 0 10px 0;
+		position: relative;
+		margin-top: 70px;
+		
+	.line {
+			border-top: 1px solid #30353b;
+			padding-top:5px;
+			padding-bottom: 5px;
+			margin: 35px auto 0;
+			width: 10%;
+			position: absolute;
+			left: -12%;
+		}
+
+	.line:after {
+			content: "";
+			width: 10px;
+			height: 10px;
+			background: #30353b;
+			border-radius: 5px;
+			position: absolute;
+			top: -6px;
+		}
+
+	.line:after {
+			right: 0;
+		}
+	}
+
+	.social-icons {
+
+		a {
+			
+			display: inline;
+
+			i {
+				color: $gray;
+				padding: 50px 10px;
+			}
+
+		}
+
+		.line {
+			border-top: 3px solid $gray;
+			padding-bottom: 9px;
+			width: 5%;
+			display: inline-block;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.about-us {
+		padding-left: 10%;
+
+		.background {
+			top: 15%;
+			left: 0;
+			position: absolute;
+
+			h1 {
+
+				font-size: 50px;
+
+			}
+
+		}
+
+		.contents {
+			position: relative;
+
+			.line {
+				border-top: 1px solid #30353b;
+				padding-top:5px;
+				padding-bottom: 5px;
+				margin: 25px auto 0;
+				width: 50px;
+				position: absolute;
+				left: -60px;
+				}
+
+			.line:after {
+					content: "";
+					width: 10px;
+					height: 10px;
+					background: #30353b;
+					border-radius: 5px;
+					position: absolute;
+					top: -6px;
+				}
+			
+			h2 {
+				font-size: 33px;
+				line-height: 44px;
+				}
+
+			
+			}
+
+			.social-icons {
+
+			.line {
+				border-top: 3px solid $gray;
+				padding-top:5px;
+				padding-bottom: 10px;
+				width: 50px;
+				display: inline-block;
+			}	
+
+		}
+
+	}
+	
+}
