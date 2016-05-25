@@ -30,6 +30,13 @@
    ========================================================================== */
 /* Typography
    ========================================================================== */
+/* line 4, partials/_typography.scss */
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @font-face {
   font-family: "Montserrat-Regular";
   src: url(../fonts/Montserrat-Regular.ttf);
@@ -38,60 +45,60 @@
   font-family: "Merriweather-Bold";
   src: url(../fonts/Merriweather-Bold.otf);
 }
-/* line 14, partials/_typography.scss */
+/* line 19, partials/_typography.scss */
 html, body {
   height: 100%;
   width: 100%;
 }
 
-/* line 19, partials/_typography.scss */
+/* line 24, partials/_typography.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 23, partials/_typography.scss */
+/* line 28, partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Regular";
   margin: 0;
 }
 
-/* line 28, partials/_typography.scss */
+/* line 33, partials/_typography.scss */
 h1 {
   font-size: 98px;
 }
 
-/* line 29, partials/_typography.scss */
+/* line 34, partials/_typography.scss */
 h2 {
   font-size: 46px;
 }
 
-/* line 30, partials/_typography.scss */
+/* line 35, partials/_typography.scss */
 h3 {
   font-size: 40px;
 }
 
-/* line 31, partials/_typography.scss */
+/* line 36, partials/_typography.scss */
 h4 {
   font-size: 22px;
 }
 
-/* line 32, partials/_typography.scss */
+/* line 37, partials/_typography.scss */
 h5 {
   font-size: 20px;
   text-align: center;
 }
 
-/* line 33, partials/_typography.scss */
+/* line 38, partials/_typography.scss */
 h6 {
   font-size: 18px;
 }
 
-/* line 34, partials/_typography.scss */
+/* line 39, partials/_typography.scss */
 p {
   font-size: 16px;
 }
 
-/* line 36, partials/_typography.scss */
+/* line 41, partials/_typography.scss */
 li, a, p {
   font-family: "Montserrat-Regular";
 }
@@ -110,12 +117,12 @@ header .container {
 header .logo {
   padding: 10px 0 0.5% 0;
 }
-/* line 14, partials/_header.scss */
+/* line 15, partials/_header.scss */
 header .logo img {
   width: 150px;
   height: auto;
 }
-/* line 20, partials/_header.scss */
+/* line 22, partials/_header.scss */
 header label {
   color: #e4e3e3;
 }
@@ -276,12 +283,11 @@ html, body {
 
 /* line 85, pages/_homepage.scss */
 #typed {
-  color: #faae1e;
-  content: '$x';
+  color: #1393cb;
   font-size: 50px;
 }
 
-/* line 105, pages/_homepage.scss */
+/* line 104, pages/_homepage.scss */
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -337,48 +343,48 @@ html, body {
   }
 }
 @media screen and (max-width: 991px) {
-  /* line 119, pages/_homepage.scss */
+  /* line 118, pages/_homepage.scss */
   .about-us .background {
     top: 50px;
     left: 10%;
   }
-  /* line 123, pages/_homepage.scss */
+  /* line 122, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 80px;
   }
 
-  /* line 131, pages/_homepage.scss */
+  /* line 130, pages/_homepage.scss */
   .contents h2 {
     font-size: 41px;
   }
 
-  /* line 136, pages/_homepage.scss */
+  /* line 135, pages/_homepage.scss */
   #typed {
     font-size: 41px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 143, pages/_homepage.scss */
+  /* line 142, pages/_homepage.scss */
   .about-us {
     padding-left: 10%;
   }
-  /* line 146, pages/_homepage.scss */
+  /* line 145, pages/_homepage.scss */
   .about-us .background {
     top: 70px;
     left: 0;
     position: absolute;
   }
-  /* line 151, pages/_homepage.scss */
+  /* line 150, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 50px;
   }
-  /* line 159, pages/_homepage.scss */
+  /* line 158, pages/_homepage.scss */
   .about-us .contents {
     position: relative;
     max-height: none;
     height: auto;
   }
-  /* line 164, pages/_homepage.scss */
+  /* line 163, pages/_homepage.scss */
   .about-us .contents .line {
     border-top: 1px solid #30353b;
     padding-top: 5px;
@@ -388,7 +394,7 @@ html, body {
     position: absolute;
     left: -60px;
   }
-  /* line 174, pages/_homepage.scss */
+  /* line 173, pages/_homepage.scss */
   .about-us .contents .line:after {
     content: "";
     width: 10px;
@@ -398,12 +404,12 @@ html, body {
     position: absolute;
     top: -6px;
   }
-  /* line 184, pages/_homepage.scss */
+  /* line 183, pages/_homepage.scss */
   .about-us .contents h2 {
     font-size: 33px;
     line-height: 44px;
   }
-  /* line 194, pages/_homepage.scss */
+  /* line 193, pages/_homepage.scss */
   .about-us .social-icons .line {
     border-top: 3px solid #e4e3e3;
     padding-top: 5px;
@@ -412,7 +418,7 @@ html, body {
     display: inline-block;
   }
 
-  /* line 208, pages/_homepage.scss */
+  /* line 207, pages/_homepage.scss */
   #typed {
     font-size: 33px;
   }
