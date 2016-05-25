@@ -114,6 +114,30 @@ html, body {
     100% { opacity:1; }
 }
 
+@media screen and (max-width: 991px) {
+	.about-us{
+		.background {
+			top: 40px;
+			left: 10%;
+
+			h1 {
+				font-size: 80px;
+			}
+			
+		}
+	}
+
+	.contents{
+		h2{
+			font-size: 40px;
+		}
+	}
+
+	#typed{
+		font-size: 40px;		
+	}
+}
+
 @media screen and (max-width: 768px) {
 	
 	.about-us {

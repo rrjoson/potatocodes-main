@@ -336,28 +336,70 @@ html, body {
     opacity: 1;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   /* line 119, pages/_homepage.scss */
   .about-us {
     padding-left: 10%;
   }
   /* line 122, pages/_homepage.scss */
+=======
+@media screen and (max-width: 991px) {
+  /* line 127, pages/_homepage.scss */
+  .about-us .background {
+    top: 40px;
+    left: 10%;
+  }
+  /* line 131, pages/_homepage.scss */
+  .about-us .background h1 {
+    font-size: 80px;
+  }
+
+  /* line 139, pages/_homepage.scss */
+  .contents h2 {
+    font-size: 40px;
+  }
+
+  /* line 144, pages/_homepage.scss */
+  #typed {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 151, pages/_homepage.scss */
+  .about-us {
+    padding-left: 10%;
+  }
+  /* line 154, pages/_homepage.scss */
+>>>>>>> about-us
   .about-us .background {
     top: 70px;
     left: 0;
     position: absolute;
   }
+<<<<<<< HEAD
   /* line 127, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 50px;
   }
   /* line 135, pages/_homepage.scss */
+=======
+  /* line 159, pages/_homepage.scss */
+  .about-us .background h1 {
+    font-size: 50px;
+  }
+  /* line 167, pages/_homepage.scss */
+>>>>>>> about-us
   .about-us .contents {
     position: relative;
     max-height: none;
     height: auto;
   }
+<<<<<<< HEAD
   /* line 140, pages/_homepage.scss */
+=======
+  /* line 172, pages/_homepage.scss */
+>>>>>>> about-us
   .about-us .contents .line {
     border-top: 1px solid #30353b;
     padding-top: 5px;
@@ -367,7 +409,11 @@ html, body {
     position: absolute;
     left: -60px;
   }
+<<<<<<< HEAD
   /* line 150, pages/_homepage.scss */
+=======
+  /* line 182, pages/_homepage.scss */
+>>>>>>> about-us
   .about-us .contents .line:after {
     content: "";
     width: 10px;
@@ -377,12 +423,20 @@ html, body {
     position: absolute;
     top: -6px;
   }
+<<<<<<< HEAD
   /* line 160, pages/_homepage.scss */
+=======
+  /* line 192, pages/_homepage.scss */
+>>>>>>> about-us
   .about-us .contents h2 {
     font-size: 33px;
     line-height: 44px;
   }
+<<<<<<< HEAD
   /* line 170, pages/_homepage.scss */
+=======
+  /* line 202, pages/_homepage.scss */
+>>>>>>> about-us
   .about-us .social-icons .line {
     border-top: 3px solid #e4e3e3;
     padding-top: 5px;
@@ -391,7 +445,11 @@ html, body {
     display: inline-block;
   }
 
+<<<<<<< HEAD
   /* line 184, pages/_homepage.scss */
+=======
+  /* line 216, pages/_homepage.scss */
+>>>>>>> about-us
   #typed {
     font-size: 33px;
   }
