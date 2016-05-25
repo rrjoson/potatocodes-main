@@ -260,7 +260,7 @@ html, body {
 
 /* line 93, pages/_homepage.scss */
 #typed {
-  color: #faae1e;
+  color: #d32f3f;
   content: '$x';
   font-size: 50px;
 }
@@ -320,28 +320,49 @@ html, body {
     opacity: 1;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   /* line 127, pages/_homepage.scss */
+  .about-us .background {
+    top: 40px;
+    left: 10%;
+  }
+  /* line 131, pages/_homepage.scss */
+  .about-us .background h1 {
+    font-size: 80px;
+  }
+
+  /* line 139, pages/_homepage.scss */
+  .contents h2 {
+    font-size: 40px;
+  }
+
+  /* line 144, pages/_homepage.scss */
+  #typed {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 151, pages/_homepage.scss */
   .about-us {
     padding-left: 10%;
   }
-  /* line 130, pages/_homepage.scss */
+  /* line 154, pages/_homepage.scss */
   .about-us .background {
     top: 70px;
     left: 0;
     position: absolute;
   }
-  /* line 135, pages/_homepage.scss */
+  /* line 159, pages/_homepage.scss */
   .about-us .background h1 {
     font-size: 50px;
   }
-  /* line 143, pages/_homepage.scss */
+  /* line 167, pages/_homepage.scss */
   .about-us .contents {
     position: relative;
     max-height: none;
     height: auto;
   }
-  /* line 148, pages/_homepage.scss */
+  /* line 172, pages/_homepage.scss */
   .about-us .contents .line {
     border-top: 1px solid #30353b;
     padding-top: 5px;
@@ -351,7 +372,7 @@ html, body {
     position: absolute;
     left: -60px;
   }
-  /* line 158, pages/_homepage.scss */
+  /* line 182, pages/_homepage.scss */
   .about-us .contents .line:after {
     content: "";
     width: 10px;
@@ -361,12 +382,12 @@ html, body {
     position: absolute;
     top: -6px;
   }
-  /* line 168, pages/_homepage.scss */
+  /* line 192, pages/_homepage.scss */
   .about-us .contents h2 {
     font-size: 33px;
     line-height: 44px;
   }
-  /* line 178, pages/_homepage.scss */
+  /* line 202, pages/_homepage.scss */
   .about-us .social-icons .line {
     border-top: 3px solid #e4e3e3;
     padding-top: 5px;
@@ -375,7 +396,7 @@ html, body {
     display: inline-block;
   }
 
-  /* line 192, pages/_homepage.scss */
+  /* line 216, pages/_homepage.scss */
   #typed {
     font-size: 33px;
   }
