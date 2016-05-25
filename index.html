@@ -115,16 +115,17 @@
 	<script>
     $(function(){
 
-        $("#typed").typed({
-            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+    	
+        $("#typed").typed({ 
             stringsElement: $('#typed-strings'),
             typeSpeed: 30,
-            backDelay: 5000,
+            backDelay: 1000,
             loop: true,
             contentType: 'html', // or text
             // defaults to false for infinite loop
             loopCount: false,
             callback: function(){ foo(); },
+            preStringTyped: function() {colorChange();},
             resetCallback: function() { newTyped(); }
         });
 
@@ -134,9 +135,31 @@
 
     });
 
-    function newTyped(){ /* A new typed object */ }
+    function colorChange() {
+    	var color;
+	    var x = Math.floor((Math.random() * 3) + 1);
 
-    function foo(){ console.log("Callback"); }
+	    switch (x) {
+	    case 3:
+	        color = "#1393cb";
+	        break;
+	    case 1:
+	        color = "#d32f3f";
+	        break;
+	    case 2:
+	        color = "#faae1e";
+	        break;
+	    }
+
+	    $("#typed").css('color', color);
+	    
+	}
+
+    function newTyped(){ 
+    	/* A new typed object */ 
+   	}
+
+    function foo(){ console.log("Callback");}
 
     </script>
 </body>
